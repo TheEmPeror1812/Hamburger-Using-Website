@@ -1,0 +1,18 @@
+.sectiontag {
+    font-size: 43px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 8px 27px;
+    border: 3px solid gray;
+    border-radius: 76px;
+    font-family: 'Arvo', serif;
+}
+
+.secright {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 86%;
+    margin: -10px auto;
+}

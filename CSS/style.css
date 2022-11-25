@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f1fdfd;
+}
+
+/* Navigation Bar CSS */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    height: 57px;
+    width: 57px;
+    margin: 13px 28px;
+    border-radius: 19px;
+    display: inline;
+    cursor: pointer;
+}
+
+.logo {
+    display: inline;
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline;
+    padding: 2px 18px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 6px 11px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    font-family: cursive;
+}
+
+.rightnav {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#search {
+    padding: 6px 13px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    margin: 6px 14px;
+    font-size: 15px;
+    width: 386px;
+    font-family: cursive;
+    background: none;
+    color: white;
+    margin-left: 155px;
+}
+
+.btn-sm {
+    padding: 4px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+/* First Section CSS */
+
+.firstsection {
+    height: 89vh;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+    width: 65%;
+    margin: auto;
+    height: 73%;
+}
+
+.firsthalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    padding: 4px 9px;
+    font-size: 44px;
+    color: #9898f1;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.text-small {
+    padding: 21px 21px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn-fs {
+    padding: 5px 8px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+
+/* Section Right */
+.secright {
+    height: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 86%;
+    margin: -10px auto;
+}
+
+.sectiontag {
+    font-size: 43px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 8px 85px;
+    border: 3px solid gray;
+    border-radius: 76px;
+    font-family: 'Arvo', serif;
+}
+
+.sectionsubtag {
+    text-align: center;
+    font-family: cursive;
+    padding: 10px 26px;
+    border: 3px solid gray;
+    border-radius: 42px;
+}
+
+.dir-opp {
+    flex-direction: row-reverse;
+}
+
+/* Contact CSS */
+
+.contact {
+    height: 75vh;
+}
+
+#text {
+    text-align: center;
+    text-align: center;
+    font-size: 45px;
+    margin: 7px 0px;
+    font-family: 'Arvo', serif;
+    margin-top: -14px;
+}
+
+.form {
+    max-width: 628px;
+    margin: auto;
+}
+
+#messege {
+    margin: 10px 0px;
+    width: 623px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 6px 1px;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+
+.contact-input {
+    font-size: 16px;
+    padding: 3px 1px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: inline;
+    width: 100%;
+    font-family: cursive;
+}
+
+.btn-contact {
+    padding: 5px 8px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    cursor: pointer;
+    margin: 0px 0px;
+}
+
+/* Footer CSS */
+
+.foot {
+    text-align: center;
+}
+
+
+/* For Images */
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(https://www.pixel4k.com/wp-content/uploads/2019/03/geometry-abstract-4k_1553075423.jpg.webp);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.thumbnail img {
+    width: 288px;
+    height: 229px;
+    margin: 0px 25px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+/* Hover */
+.nav-list li a:hover {
+    background-color: rgb(118, 118, 243);
+}
+
+.btn-sm:hover {
+    background-color: rgb(118, 118, 243);
+}
+
+.btn-fs:hover {
+    background-color: rgb(118, 118, 243);
+}
+
+.btn-contact:hover {
+    background-color: rgb(118, 118, 243);
+}
+
+/* Burger CSS */
+.burger{
+    display: none;
+    margin-right: 25px;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 3px 2px;
+    border-radius: 2px;
+}
+.buttons{
+    display: flex;
+}
+
+.thumbnail img{
+    margin: 25px;
+}

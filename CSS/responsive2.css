@@ -1,0 +1,98 @@
+.nav-list {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline;
+    padding: 2px 18px;
+    margin: 15px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #0a0a15;
+    flex-direction: column;
+    height: 400px;
+    transition: all 0.7s ease-in-out;
+}
+
+#search {
+    padding: 6px 13px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    margin: 6px 8px;
+    font-size: 15px;
+    width: 100%;
+    font-family: cursive;
+    background: none;
+    color: white;
+}
+
+.burger{
+    display: block;
+    position: absolute;
+    right: 4%;
+    top: 21px;
+    cursor: pointer;
+}
+
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 3px 2px;
+    border-radius: 2px;
+}
+
+.h-nav-resp{
+    height: 72px;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+
+.firstsection {
+    height: 68vh;
+}
+
+.main-box{
+    flex-direction: column;
+    height: 71vh;
+}
+
+.text-big{
+    text-align: center;
+    font-size: 43px;
+}
+
+.secondhalf img{
+    margin: 47px auto;
+}
+
+.text-small {
+    margin: 7px 2px;
+    font-size: 17px;
+}
+
+.secright{
+    flex-direction: column;
+    height: 50vh;
+}
+
+#messege{
+    width: 100%;
+}
+
+.secondhalf{
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+.sectiontag{
+    font-size: 30px;
+}
+.sectionsubtag{
+    font-size: 16px;
+}
+.secright {
+    height: 60vh;
+}
+
+.form{
+    max-width: 330px;
+}
+
+.main-box{
+    width: 100%;
+    height: 75vh;
+}
+
+.text-big {
+    font-size: 48px;
+}
+
+.text-small {
+    font-size: 21px;
+}
+
+.firstsection {
+    height: 73vh;
+}
+
+.btn-fs{
+    font-size: 23px;
+}

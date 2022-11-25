@@ -1,0 +1,54 @@
+.text-big{
+    font-size: 20px;
+}
+.text-small{
+    font-size: 11px;
+}
+
+.secondhalf img {
+    width: 135px;
+    height: 133px;
+    margin-top: 14px;
+}
+
+.firstsection {
+    height: 49vh;
+}
+
+
+.sectiontag {
+    font-size: 13px;
+}
+
+.sectionsubtag {
+    font-size: 14px;
+}
+
+#text{
+    font-size: 30px;
+}
+
+#messege{
+    font-size: 14px;
+}
+
+.contact-input{
+    font-size: 14px;
+}
+
+.btn-contact{
+    font-size: 14px;
+}
+
+.btn-fs {
+    font-size: 12px;
+}
+
+.main-box {
+    width: 100%;
+    height: 51vh;
+}
+
+.secright {
+    height: 69vh;
+}
